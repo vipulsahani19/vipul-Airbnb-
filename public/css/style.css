@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 5rem;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+.nav-link:hover{
+    font-size: 1.2rem;
+}
+.footer{
+    background-color:#f7f7f7;
+    border-top:1px solid #e5e5e5;
+    padding:15px 40px;
+    /* position:fixed; */
+    bottom:0;
+    width:100%;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:14px;
+}
+
+.footer-center a{
+    margin:0 10px;
+    text-decoration:none;
+    color:#222;
+}
+
+.footer-center a:hover{
+    text-decoration:underline;
+}
+
+.footer-right{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.social-icons a{
+    color:#222;
+    font-size:18px;
+    margin-right:10px;
+}
+
+.social-icons a:hover{
+    color:#ff385c; /* Airbnb pink */
+}
+/* card  */
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.edit{
+    border-radius: .3rem;
+}
+.listing-link{
+    text-decoration: none ;
+}
+.card-img-overlay:hover{
+    opacity: .1;
+    background-color: #6c6363;
+}
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+/* Show Image */
+.show-img{
+    height: 40vh;
+    
+}
+.btns{
+    display: flex;
+}

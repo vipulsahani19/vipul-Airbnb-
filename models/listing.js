@@ -6,20 +6,22 @@ const listingschema=new Schema({
         type:String,
         required:true,
     },
-    decprection:{
+    description:{
         type:String
     },
-    image:{
-        type:String,
-        set:(v)=>
-            v===""
-            ?"https://www.dreamstime.com/photos-images/greeting-guest.html"
-            :v,
+    image: {
+    filename: {
+      type: String,
     },
+    url: {
+      type: String,
+      default: "https://www.dreamstime.com/photos-images/greeting-guest.html",
+    },
+  },
     price:{
         type:Number
     },
-    loaction:{
+    location:{
         type:String
     },
     country:{
